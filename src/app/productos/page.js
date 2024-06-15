@@ -7,6 +7,11 @@ import styles from "PROYECTOBOOTCAMP/app/page.module.css"
 
 
 export default function productosPage(){
+
+
+
+
+  
     return(
         
         <main>
