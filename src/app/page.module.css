@@ -1,0 +1,108 @@
+.main {flex: 1;
+  background-color: #0b0c0c;
+}
+
+.footer{display: flex;
+  width: 100%;
+  margin-block-end: auto;
+
+}
+.boton {
+  padding: 0%;
+}
+
+.ingresar{
+  width: flex;
+  height: flex;
+}
+.div{
+  flex: auto;
+  border: #0b0c0c;
+}
+.button{
+  border-radius: 14px;
+  flex: auto;
+  height: 20px;
+  width: 20px;
+  background-color: darkblue;
+  padding-left: 100%;
+}
+
+.footer button {
+  flex: 1;
+  margin: 0;
+  padding: 10px;
+  border: none;
+  background-color: #0b0c0c; /* Cambia el color de fondo según tus preferencias */
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+}
+.toolbar {
+  display: flex;
+  width: 100%;
+}
+
+.toolbar button {
+  flex: 1;
+  margin: 0;
+  padding: 10px;
+  border: none;
+  background-color: #0b0c0c; /* Cambia el color de fondo según tus preferencias */
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+}
+
+
+.lista {
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
+  background-color: beige;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+  border: 2px solid black; 
+  height: 78vh;
+}
+
+.lista ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.lista li {
+  border-bottom: 2px solid black;
+  margin-bottom: 1rem; /* Aumenta el espacio entre elementos de la lista */
+  font-size: 1.2em; /* Aumenta el tamaño del texto */
+  line-height: 1.5; /* Aumenta el espacio entre líneas */
+}
+.lista button{
+
+  flex: 1;
+margin: 0;
+padding: 40px;
+border: none;
+color: #0c0c0c; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Opcional: para ocupar todo el espacio vertical */
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  border: 1px solid black; /* Añade bordes para visualizar las divisiones */
+  padding: 10px;
+}
+@media screen and  (max-width:960){
+  
+}
